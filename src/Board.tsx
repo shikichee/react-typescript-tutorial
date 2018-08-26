@@ -4,7 +4,7 @@ import {Square} from "./Square";
 
 type BoardType = string | null;
 interface Props {
-    squares: Array<string | null>;
+    squares: BoardType[];
     onClick: (i: number) => void;
 }
 interface State {

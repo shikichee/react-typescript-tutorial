@@ -36,5 +36,19 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAod3jNz4Pc8Bdg5CvtxXdaFyyUvl_UHRk",
+            authDomain: "react-typescript-tutorial.firebaseapp.com",
+            databaseURL: "https://react-typescript-tutorial.firebaseio.com",
+            projectId: "react-typescript-tutorial",
+            storageBucket: "react-typescript-tutorial.appspot.com",
+            messagingSenderId: "795850333916"
+        };
+        firebase.initializeApp(config);
+    </script>
   </body>
 </html>
